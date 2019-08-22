@@ -19,7 +19,7 @@ public class StudentController {
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("name", "Dilip");
 		mv.setViewName("index2");
-		return mv;
+		  return mv;
 	}
 
 	@RequestMapping(value = "/stu2")
